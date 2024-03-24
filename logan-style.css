@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ header {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+ }
+
+ .introduction {
+    background-color: red;
+    padding: 20px;
+    margin-top: 20px;
+
+ }
+
+ .skills {
+    padding: 20px;
+    margin-top: 20;
+ }
+  .skills ul {
+    list-style: none;
+    padding: o;
+  }
+
+  .skills ul li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: black;
+
+  }
+
+  .contact {
+    background-color: green;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  @media only screen and (max-width:600px) {
+    .skills ul li {
+        margin-bottom: 5px;
+    }
+    
+  }
